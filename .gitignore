@@ -1,0 +1,86 @@
+################ !!!! Git Ignore Config File !!! ################
+# NOTE: This file must be put under root dir of git project!
+#################################################################
+
+node_modules/
+.ropeproject/
+*.un~
+*.bundle.js
+bundle.js
+vendor.js
+config.js
+*.tar.gz
+top15/public/goal/index.html
+top15/public/todo/index.html
+
+
+# common ignore files
+*.swp
+*.tmp
+*.bak
+.svn/
+
+# Mac files
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# general output files
+bin/
+gen/
+out/
+
+# C/C++ specific files
+*.o
+
+# Java/Android specific files
+*.class
+*.apk
+*.ap_
+*.dex
+
+# Python specific files
+*.pyc
+Dock.egg-info/
+dist/
+#config.yaml
+
+# Eclipse specific files
+.settings/
+
+# Intellij specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Xcode specific files
+build/
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+
+# IDEA specific files
+.idea/
+
+# Other files
+data/res*.yaml
+data/*.pem
+data/*.key
+ua_report_sources/
+ua_report_resources/
+config.yaml
+
+*.egg-info/
+rethinkdb_data
